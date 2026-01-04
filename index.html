@@ -2,26 +2,130 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>AIHIKA CONSTRUCTION</title>
+<title>AIHIKA CONSTRUCTIONS | Civil & Building Contractors</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="AIHIKA Constructions is a professional civil and building construction company delivering residential, commercial and infrastructure projects with quality, safety and timely execution.">
+<meta name="keywords" content="civil contractor, building contractor, construction company, RCC works, turnkey projects, India">
+<meta name="author" content="AIHIKA Constructions">
+
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
 }
+
+/* Header */
 header {
-    background: #0b2c4d;
-    color: white;
-    padding: 20px;
+    background: #0B2C4D;
+    padding: 16px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.brand img {
+    height: 46px;
+}
+.brand span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 nav a {
-    color: white;
-    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(rgba(11,44,77,0.9), rgba(11,44,77,0.9));
+    color: #fff;
+    padding: 110px 40px;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Sections */
+section {
+    max-width: 1150px;
+    margin: auto;
+    padding: 60px 40px;
+}
+section h2 {
+    color: #0B2C4D;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+.card {
+    background: #F4F6F8;
+    border-left: 5px solid #1FA2E1;
+    padding: 22px;
+    border-radius: 6px;
+}
+
+/* Contact */
+.contact-box {
+    background: #F4F6F8;
+    padding: 35px;
+    border-radius: 6px;
+}
+.contact-box a {
+    color: #0B2C4D;
     text-decoration: none;
     font-weight: bold;
 }
-section {
-    padding: 40px;
+
+/* Footer */
+footer {
+    background: #0B2C4D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    padding: 14px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-decoration: none;
 }
 </style>
 </head>
@@ -29,29 +133,74 @@ section {
 <body>
 
 <header>
-    <nav>
+<nav>
+    <div class="brand">
+        <img src="images/logo.png" alt="AIHIKA Constructions Logo">
+        <span>AIHIKA CONSTRUCTIONS</span>
+    </div>
+    <div>
         <a href="index.html">Home</a>
         <a href="leadership.html">Leadership</a>
         <a href="#contact">Contact</a>
-    </nav>
+    </div>
+</nav>
 </header>
 
-<section>
-<div style="display:flex; align-items:center; gap:12px;">
-    <img src="images/logo.png" alt="AIHIKA Constructions Logo" style="height:48px;">
-    <h1 style="margin:0;">AIHIKA CONSTRUCTIONS</h1>
+<div class="hero">
+    <h1>Civil & Building Construction Contractors</h1>
+    <p>
+        Execution-driven construction solutions delivered in compliance with approved drawings,
+        technical specifications, IS codes, safety norms and contractual timelines.
+    </p>
 </div>
 
-    <p>Civil & Building Construction Contractors</p>
+<section>
+<h2>About Us</h2>
+<p>
+AIHIKA Constructions is a professionally managed civil engineering and construction company
+engaged in execution of residential, commercial and infrastructure projects.
+The company operates with strict adherence to contractual requirements,
+technical specifications, quality assurance systems and statutory safety norms.
+</p>
+</section>
+
+<section>
+<h2>Company Profile</h2>
+<p>
+AIHIKA Constructions is an execution-focused organization led by technically qualified
+professionals with strong site and PMC exposure. The company follows structured project
+management practices, disciplined site controls and transparent coordination with clients,
+consultants and statutory authorities to ensure timely and compliant project delivery.
+</p>
+</section>
+
+<section>
+<h2>Our Services</h2>
+<div class="cards">
+    <div class="card"><strong>Residential & Commercial Buildings</strong><br>RCC, masonry, finishing and external works.</div>
+    <div class="card"><strong>Turnkey Projects</strong><br>End-to-end execution, coordination and handover.</div>
+    <div class="card"><strong>RCC & Structural Works</strong><br>Foundations, superstructure and concreting.</div>
+    <div class="card"><strong>Renovation & Modifications</strong><br>Structural alterations and strengthening.</div>
+</div>
 </section>
 
 <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong><br>
-        +91 9901501413<br>
-        +91 99022 66045
-    </p>
+<h2>Contact Us</h2>
+<div class="contact-box">
+<p><strong>AIHIKA CONSTRUCTIONS</strong></p>
+<p>
+Phone:<br>
+<a href="tel:+919901501413">+91 9901501413</a><br>
+<a href="tel:+919902266045">+91 99022 66045</a>
+</p>
+</div>
 </section>
+
+<footer>
+© 2025 AIHIKA CONSTRUCTIONS | Civil & Building Contractors
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919901501413" target="_blank">💬</a>
 
 </body>
 </html>
