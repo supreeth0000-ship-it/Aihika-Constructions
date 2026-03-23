@@ -5,25 +5,17 @@
 <title>AIHIKA CONSTRUCTIONS | Civil & Building Contractors</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="AIHIKA Constructions is a professional civil and building construction company delivering residential, commercial and infrastructure projects with quality, safety and timely execution.">
-<meta name="keywords" content="civil contractor, building contractor, construction company, RCC works, turnkey projects, India">
-<meta name="author" content="AIHIKA Constructions">
-
 <style>
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    line-height: 1.6;
 }
 
 /* Header */
 header {
     background: #0B2C4D;
     padding: 16px 40px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 nav {
     display: flex;
@@ -33,87 +25,93 @@ nav {
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 .brand img {
     height: 46px;
-    max-width: 100%;
 }
 .brand span {
     color: #fff;
-    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
 nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 22px;
-    font-size: 14px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
 /* Hero */
 .hero {
-    background: linear-gradient(rgba(11,44,77,0.9), rgba(11,44,77,0.9));
+    background: #0B2C4D;
     color: #fff;
-    padding: 110px 40px;
+    padding: 100px 40px;
     text-align: center;
-}
-.hero h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.hero p {
-    font-size: 18px;
-    max-width: 950px;
-    margin: auto;
 }
 
 /* Sections */
 section {
-    max-width: 1150px;
-    margin: auto;
     padding: 60px 40px;
+    max-width: 1100px;
+    margin: auto;
 }
-section h2 {
+h2 {
     color: #0B2C4D;
-    font-size: 28px;
-    margin-bottom: 20px;
 }
 
-/* Cards */
-.cards {
+/* Projects */
+.projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
 }
-.card {
-    background: #F4F6F8;
-    border-left: 5px solid #1FA2E1;
-    padding: 22px;
+.project-card {
+    border: 1px solid #ddd;
     border-radius: 6px;
+    overflow: hidden;
+}
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.project-card div {
+    padding: 15px;
 }
 
-/* Project Blocks */
-.project-box {
-    background: #F9FAFB;
-    padding: 25px;
+/* Before After */
+.before-after {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.ba-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
     border-radius: 6px;
-    margin-bottom: 25px;
-    border: 1px solid #ddd;
+}
+.ba-box h4 {
+    text-align: center;
+}
+
+/* Testimonials */
+.testimonials {
+    display: grid;
+    gap: 20px;
+}
+.testimonial {
+    background: #F4F6F8;
+    padding: 20px;
+    border-left: 5px solid #1FA2E1;
+    border-radius: 6px;
 }
 
 /* Contact */
-.contact-box {
-    background: #F4F6F8;
-    padding: 35px;
+.contact {
+    background: #f4f6f8;
+    padding: 25px;
     border-radius: 6px;
-}
-.contact-box a {
-    color: #0B2C4D;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 /* Footer */
@@ -121,8 +119,7 @@ footer {
     background: #0B2C4D;
     color: #fff;
     text-align: center;
-    padding: 20px;
-    font-size: 14px;
+    padding: 15px;
 }
 
 /* WhatsApp */
@@ -132,9 +129,8 @@ footer {
     right: 20px;
     background: #25D366;
     color: #fff;
-    padding: 14px 16px;
+    padding: 14px;
     border-radius: 50%;
-    font-size: 22px;
     text-decoration: none;
 }
 </style>
@@ -145,7 +141,7 @@ footer {
 <header>
 <nav>
     <div class="brand">
-        <img src="images/logo.png" alt="AIHIKA Constructions Logo">
+        <img src="images/logo.png">
         <span>AIHIKA CONSTRUCTIONS</span>
     </div>
     <div>
@@ -159,70 +155,116 @@ footer {
 
 <div class="hero">
     <h1>Civil & Building Construction Contractors</h1>
-    <p>
-        Execution-driven construction solutions delivered in strict compliance with approved drawings,
-        technical specifications, IS codes, safety regulations and contractual timelines.
-    </p>
+    <p>Execution-driven construction with quality, safety & timely delivery.</p>
 </div>
 
 <section>
 <h2>About Us</h2>
 <p>
-AIHIKA Constructions is a professionally managed civil engineering and construction company engaged
-in the execution of residential, commercial and infrastructure projects. The organization is driven
-by strong technical expertise, disciplined site execution practices and a clear focus on quality,
-safety and timely completion of works.
-</p>
-<p>
-The company operates with strict adherence to contractual requirements, approved drawings,
-technical specifications, quality assurance plans and statutory safety norms. AIHIKA Constructions
-follows structured project management systems, proactive coordination with clients, consultants
-and statutory authorities, and robust site control mechanisms to ensure smooth project delivery.
-</p>
-<p>
-With leadership having strong exposure to PMC-driven and corporate projects, the company is
-well-positioned to execute projects that demand high levels of compliance, coordination and
-execution discipline.
+AIHIKA Constructions is a professionally managed civil engineering company engaged in execution of
+residential and commercial projects with strict adherence to quality, safety and timelines.
 </p>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-<h2>Projects</h2>
+<h2>Our Projects</h2>
 
-<div class="project-box">
-<h3>Completed Projects</h3>
-<p>
-Successfully executed residential and commercial building projects involving RCC structural works,
-masonry, finishing works and external development. The completed projects were delivered in
-compliance with approved drawings, quality standards and contractual timelines, meeting client
-expectations for workmanship and safety.
-</p>
+<div class="projects">
+
+<div class="project-card">
+    <img src="images/project1.jpg">
+    <div>
+        <strong>Residential Villa – Bangalore</strong>
+        <p>Complete RCC and finishing works delivered within timeline.</p>
+    </div>
 </div>
 
-<div class="project-box">
-<h3>Ongoing Projects</h3>
-<p>
-Currently executing residential and commercial construction works including structural works,
-finishing activities and coordination with multiple stakeholders. The ongoing projects are being
-managed with a strong focus on safety compliance, quality assurance and progress monitoring to
-achieve timely completion.
-</p>
+<div class="project-card">
+    <img src="images/project2.jpg">
+    <div>
+        <strong>Commercial Building</strong>
+        <p>Execution of structure and finishing with PMC coordination.</p>
+    </div>
 </div>
 
-<div class="project-box">
-<h3>Projects in Pipeline</h3>
-<p>
-Upcoming residential and commercial developments in various stages of planning and mobilization.
-These projects involve detailed execution planning, resource allocation and coordination with
-clients and consultants prior to commencement, ensuring smooth and efficient project execution.
-</p>
+<div class="project-card">
+    <img src="images/project3.jpg">
+    <div>
+        <strong>Ongoing Residential Project</strong>
+        <p>Currently executing RCC works with strict quality control.</p>
+    </div>
 </div>
 
+</div>
 </section>
 
+<!-- BEFORE AFTER -->
+<section>
+<h2>Before & After</h2>
+
+<div class="before-after">
+
+<div class="ba-box">
+    <h4>Before</h4>
+    <img src="images/before1.jpg">
+</div>
+
+<div class="ba-box">
+    <h4>After</h4>
+    <img src="images/after1.jpg">
+</div>
+
+<div class="ba-box">
+    <h4>Before</h4>
+    <img src="images/before2.jpg">
+</div>
+
+<div class="ba-box">
+    <h4>After</h4>
+    <img src="images/after2.jpg">
+</div>
+
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+<h2>Client Testimonials</h2>
+
+<div class="testimonials">
+
+<div class="testimonial">
+    <p>
+    “AIHIKA Constructions delivered our project on time with excellent quality.
+    Their coordination and execution were highly professional.”
+    </p>
+    <strong>– Residential Client</strong>
+</div>
+
+<div class="testimonial">
+    <p>
+    “Strong site management and commitment to safety standards.
+    Reliable contractor for commercial works.”
+    </p>
+    <strong>– Project Consultant</strong>
+</div>
+
+<div class="testimonial">
+    <p>
+    “Very transparent and disciplined execution approach.
+    Happy with overall performance and delivery.”
+    </p>
+    <strong>– Developer Client</strong>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
 <h2>Contact Us</h2>
-<div class="contact-box">
+<div class="contact">
 <p><strong>AIHIKA CONSTRUCTIONS</strong></p>
 <p>
 Phone:<br>
@@ -233,10 +275,10 @@ Phone:<br>
 </section>
 
 <footer>
-© 2025 AIHIKA CONSTRUCTIONS | Civil & Building Contractors
+© 2025 AIHIKA CONSTRUCTIONS
 </footer>
 
-<a class="whatsapp" href="https://wa.me/919901501413" target="_blank">💬</a>
+<a class="whatsapp" href="https://wa.me/919901501413">💬</a>
 
 </body>
 </html>
